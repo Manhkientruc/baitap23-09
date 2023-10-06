@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0;
+    padding: 100px;
 }
   
 .ulli ul li {
@@ -20,7 +20,25 @@
     text-decoration: none;
     color: #000;
 }
-
+form {
+    width: 300px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
 .header1{
     text-align: center;
     color: blue;
